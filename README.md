@@ -15,7 +15,7 @@ The script informs with messages of the step is performin in every moment. This 
 
 - To the TOTAL data.frame is applied the column names previously read (first step in this description)
 
-- To filter only those 'mean()' and 'std()' variables (as required by the assigment), a regular expresion ("[.]*mean\\(\\)|std\\(\\)[.]*") is used. Only variables which names comply with that expresion (plus subject and activity) are considered
+- To filter only those 'mean()' and 'std()' variables (as required by the assigment), a regular expresion ("[.]*mean\\ (\\)|std\\ (\\)[.] *") is used. Only variables which names comply with that expresion (plus subject and activity) are considered
 
 - Then, the activity codes are changed to their descriptions (as in the provided file 'activity_labels.txt'), as required
 
@@ -25,7 +25,7 @@ The script informs with messages of the step is performin in every moment. This 
 
 - The outcome is saved to a file 'TidyDataSet.txt' in the same folder where the processing has taken place
 
-
+NOTE: The file run_analysis.R includes a function (checkfile()) useful to check the file generated with the function run _analysis(); it re-reads the file as a data.frame and displays some information on the object.
 
 
 
