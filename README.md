@@ -25,7 +25,7 @@ The script informs with messages of the step is performin in every moment. This 
 
 - The outcome is saved to a file 'TidyDataSet.txt' in the same folder where the processing has taken place
 
-
+NOTE: The file run_analysis.R includes a function (checkfile()) useful to check the file generated with the function run _analysis(); it re-reads the file as a data.frame and displays some information on the object.
 
 
 
